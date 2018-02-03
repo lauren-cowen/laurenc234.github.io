@@ -1,86 +1,557 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-    <title>About Lauren</title>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Lauren Cowen's Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Lauren Cowen</a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <!-- <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/logo.jpg" alt="Homepage"></a>
+        </div> -->
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/backgroundImage.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Lauren Cowen</h3>
+
+                <h1>
+                    Full-Stack Developer <br>
+                    located in Austin, TX <br>
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                         Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                         About Me
+                    </a>
                 </div>
-            </nav>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="https://github.com/laurenc234"><i class="im im-github" aria-hidden="true"></i><span>GitHub</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/lauren-cowen"><i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+            <li>
+                <a href="https://stackoverflow.com/users/8129115/lauren-cowen"><i class="im im-stackoverflow" aria-hidden="true"></i><span>StackOverflow</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>More About Me</h1>
+                <img src="images/avatars/me.png" alt="Lauren Cowen" class="profile_pic">
+                <p class="lead">Full-Stack developer and experienced communicator. I am proficient in the MERN stack and highly skilled with REST, JSON, MySQL, Git, and have over three years experience working directly with customers. I am currently seeking opportunities to apply my skills at a growing, fast-paced company. </p>
+            </div>
         </div>
+
+        <div class="row about-content">
+
+            <!-- <div class="col-six tab-full left">
+                <h3></h3>
+
+                <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
+
+                <p>
+                Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.	
+                </p>
+            </div> -->
+            <div class="col-full text-center">
+                <h3>My Skills.</h3>
+            </div>
+
+            <div class="col-six tab-full right">
+                
+
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>HTML5</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>CSS3</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>JQuery</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>React</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Express</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent80"><span>80%</span></div>
+                    <strong>Node</strong>
+                    </li>   
+                </ul>
+            </div>
+            <div class="col-six tab-full left">
+
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent80"><span>80%</span></div>
+                    <strong>MongoDB</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>MySQL</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>Bootstrap</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>REST APIs</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>Firebase</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>AJAX</strong>
+                    </li>   
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-full tab-full">
+                <a href="images/LaurenCowenResume.pdf" class="btn btn--primary full-width">Download My Resume</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
+            </div>
+
+            <div class="col-full tab-full">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">October2017-June2017</p>
+                            <h3>Apple Inc.</h3>
+                            <h5>iTunes Provider Support Senior Advisor</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Provided senior level support to iTunes Content Providers and App Store Developers. Utilized critical thinking skills to troubleshoot provider's concerns by phone and email. Served as a lead proofreader for a department-wide email proofreading project
+                                Demonstrated ownership of cases and commitment to excellent service. Submitted content requests to improve procedures and advisor documentation.
+                            </p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">July 2017 - Present</p>
+                            <h3>Indeed.com</h3>
+                            <h5>Lead Enrichment</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>Researched targeted leads to provide enrichment for the inside sales team. Made suggestions to improve processes and procedures. Worked independently.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+            <div class="col-full text-center">
+                <h3>My Education.</h3>
+            </div>
+
+            <div class="col-full tab-full">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">January 2018</p>
+                            <h3>The University of Texas at Austin</h3>
+                            <h5>The Coding Program at UT Austin</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>A 24-week part-time full stack development program. 
+                            </p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">May 2014</p>
+                            <h3>The University of Texas at Austin</h3>
+                            <h5>B.A. English with a minor in economics</h5>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+        </div> <!-- end about-content timeline -->
+
+    </section> <!-- end about -->
+    
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <h1>My Latest Projects.</h1>
+            </div>
+        </div>
+        
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/letseat.png" class="thumb-link" title="Let's Eat" data-size="1050x700">
+                                <img src="images/portfolio/gallery/letseat.png" 
+                                     srcset="images/portfolio/gallery/letseat.png" alt="Let's Eat">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Let's Eat
+                            </h3>
+                            <p class="item-folio__cat">
+                               A solution for what's for dinner.
+                            </p>
+                        </div>
+
+                        <a href="https://laurenc234.github.io/LetsEat/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>
+                                https://laurenc234.github.io/LetsEat/
+                                Created as part of a group of three developers.
+                                Our application aims to help solve indecision between groups of people or individuals when deciding where to eat. It solves this problem by selecting a random restaurant based on user preferences such as zip code, cuisine type, price range, and distance.
+                                Technologies Used:
+
+                                Materialize CSS Framework
+                                Google Places API
+                                Google Maps API
+                                Zomato API
+                            </p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/calculator.png" class="thumb-link" title="Endurance Athlete Calorie Calculator" data-size="1050x700">
+                                <img src="images/portfolio/gallery/calculator.png" 
+                                     srcset="images/portfolio/gallery/calculator.png" alt="Endurance Athlete Calorie Calculator">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Endurane Athlete Calorie Calculator
+                            </h3>
+                            <p class="item-folio__cat">
+                                Calculates Macros for endurance athletes.
+                            </p>
+                        </div>
+
+                        <a href="https://enduranceathletecalculator.herokuapp.com/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p><a href = "https://enduranceathletecalculator.herokuapp.com/"> Visit Site </a>
+                            <br>
+                            Created as part of a group of three developers.
+                            Our app allows endurance athletes to calculate their resting metabolic rate, macronutrient needs, calories burned during exercise, and their daily calorie requirements.
+                            Technologies Used:
+                            Bootstrap and PureCSS Frameworks
+                            Sequelize, Express.js, Node.js
+                            Chart.js
+                            Linear algebra
+                            </p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/acciofriends.png" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/gallery/acciofriends.png" 
+                                     srcset="images/portfolio/gallery/acciofriends.png" alt="Accio Friends">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Accio Friends
+                            </h3>
+                            <p class="item-folio__cat">
+                                Find your new best friend today.
+                            </p>
+                        </div>
+
+                        <a href="https://acciofriends.herokuapp.com/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p><a href = "https://acciofriends.herokuapp.com/"> Visit Site </a>
+                                <br>
+                            Our app aims to connect friends with similar interests. 
+                            Created as part of a group of three developers.
+                            Technologies Used:
+                            React
+                            Express.js, Node.js, MongoDB
+                            Mongoose, bycrypt
+                            Material-UI, CSS Grid
+                            </p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+    </section> <!-- end works -->
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>Say Hello.</h1>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                    <h4 class="h06">Phone</h4>
+                    <p>Phone: (210) 385 9371<br>
+                    </p>
+    
+                    <h4 class="h06">Email</h4>
+                    <p>lauren.cowen@gmail.com<br>
+                    </p>   
+            </div>
+            <div class="col-four tab-full contact__infos">
+               
+
+            </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
         <div class="row">
-            <div class="col-md-8 .col-sm-12 well">
-                <div class="page-header">
-                    <h1>About Me</h1>
+            <div class="col-full">
+
+                <!-- <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
+                </div> -->
+
+                <ul class="footer-social">
+                    <li><a href="https://www.linkedin.com/in/lauren-cowen">
+                        <i class="im im-linkedin" aria-hidden="true"></i>
+                        <span>LinkedIn</span>
+                    </a></li>
+                    <li><a href="https://github.com/laurenc234">
+                        <i class="im im-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a></li>
+                    <li><a href="https://stackoverflow.com/users/8129115/lauren-cowen">
+                        <i class="im im-stackoverflow" aria-hidden="true"></i>
+                        <span>Stack Overflow</span>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Lauren Cowen 2017</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
                 </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <img class="img-responsive img-thumbnail" src="assets/images/me.png" alt="Lauren Cowen">
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <p> I am a full stack developer specializing in the MERN stack. I am currently proficient with HTML5, CSS, Bootstrap, Firebase, node.js and MySQL, and Handlebars.js. I will soon be learning Express.js, MongoDB, React.js, and PHP. I graduated from the University of Texas with a Bachelor's in English in 2014. After graduation, I have worked in customer service and sales positions. I spent 3 years at Apple providing customer service to developers distributing their apps on the App Store.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p> I took two years of computer science in high school and learned basic java skills. During college, I practiced HTML and CSS in my spare time. After a few years of self-study, I enrolled in The Coding Bootcamp at UT Austin to further my development skills. I am passionate about learning new technologies, and I look forward to furthering my career as a developer.  In my spare time, I enjoy binge watching tv series on Netflix, online gaming, and roller skating. </p>
-                    </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 well">
-                <div class="page-header">
-                    <h1>Connect with Me</h1>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <a href="https://github.com/laurenc234" class="thumbnail">
-                            <img src="assets/images/github.png" alt="github">
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://www.linkedin.com/in/lauren-cowen-93b4875a/" class="thumbnail">
-                            <img src="assets/images/linkedin.png" alt="LinkedIn">
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://stackoverflow.com/users/8129115/lauren-cowen" class="thumbnail">
-                            <img src="assets/images/stackoverflow.png" alt="StackOverflow">
-                        </a>
-                    </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
                 </div>
             </div>
+
         </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
     </div>
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-default navbar-fixed-bottom stickyfooter">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-text">
-                            <p> @Copyright 2017 Lauren Cowen</p>
-                        </a>
-                    </div>
-                </div>
-            </nav>
-        </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
